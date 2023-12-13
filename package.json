@@ -1,0 +1,51 @@
+{
+  "name": "airjs",
+  "version": "0.0.1",
+  "description": "JavaScript SDK for managing and inferencing with AI Squared's AIR models",
+  "main": "src/air.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AISquaredInc/airjs.git"
+  },
+  "keywords": [
+    "ai2"
+  ],
+  "author": "Brian Landrón",
+  "bugs": {
+    "url": "https://github.com/AISquaredInc/airjs/issues"
+  },
+  "homepage": "https://squared.ai",
+  "dependencies": {
+    "@mozilla/readability": "^0.4.1",
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow-models/deeplab": "^0.2.1",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^3.9.0",
+    "@tensorflow/tfjs-backend-cpu": "^3.9.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.9.0",
+    "@tensorflow/tfjs-converter": "^3.9.0",
+    "@tensorflow/tfjs-core": "^3.9.0",
+    "@zip.js/zip.js": "^2.3.19",
+    "babel-polyfill": "^6.26.0",
+    "dexie": "^3.0.3",
+    "docdash": "^1.2.0",
+    "jquery": "^3.6.0",
+    "jsdoc": "^3.6.7",
+    "jsonschema": "^1.4.0",
+    "url": "^0.11.0",
+    "xxhash-wasm": "^1.0.1"
+  },
+  "devDependencies": {
+    "expect": "^27.4.2",
+    "jest-mock": "^27.4.2",
+    "karma": "^6.3.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-webpack": "^5.0.0",
+    "webpack": "^5.64.4"
+  }
+}
